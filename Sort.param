@@ -1,0 +1,9 @@
+path_input=C:\Users\zgwng\Desktop\New-External-Sorting-Test-Data\All-Test-Data\data.txt;                                                     
+path_output=C:\Users\zgwng\Desktop\result\data-output.txt;                                   
+num_thread=1;                                      
+file_size= 1;          //待排序文件的数据量
+filenum=1;                  //小文件数目
+k1=1;                     //k1表示一级归并文件数  k1<100
+k2=1;                     //k2表示二级归并文件数 k2<100
+
+//请注意，filenum要是num_thread参数的整数倍
